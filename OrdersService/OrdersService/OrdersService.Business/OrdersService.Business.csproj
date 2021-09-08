@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrdersService.Business.Contracts\OrdersService.Business.Contracts.csproj" />
+    <ProjectReference Include="..\OrdersService.Data.Contracts\OrdersService.Data.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
